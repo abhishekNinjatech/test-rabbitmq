@@ -91,7 +91,7 @@ This consumeis set to consume one message per instance, sleep for 1 second, and 
 
 #### Deploy the publisher job
 
-The following job will publish 300 messages to the "hello" queue the deployment is listening to. As the queue builds up, KEDA will help the horizontal pod autoscaler add more and more pods until the queue is drained after about 2 minutes and up to 30 concurrent pods.  You can modify the exact number of published messages in the `deploy-publisher-job.yaml` file.
+The following job will publish 300 messages to the "hello" queue the deployment is listening to. As the queue builds up, KEDA will help the horizontal pod autoscaler add more and more pods until the queue is drained after about 2 minutes and up to 5 concurrent pods.  You can modify the exact number of published messages in the `deploy-publisher-job.yaml` file.
 
 ```cli
 kubectl apply -f deploy/deploy-publisher-job.yaml
