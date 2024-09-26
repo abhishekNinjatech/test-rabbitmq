@@ -29,8 +29,8 @@ A simple docker container that will receive messages from a RabbitMQ queue and s
 First you should clone the project:
 
 ```cli
-git clone https://github.com/
-cd
+git clone git@github.com:abhishekNinjatech/test-rabbitmq.git
+cd test-rabbitmq
 ```
 
 ### Creating a RabbitMQ queue
