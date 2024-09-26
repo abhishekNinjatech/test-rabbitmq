@@ -111,7 +111,7 @@ You can see the number of messages vs the target per pod as well:
 kubectl get hpa
 ```
 
-After the queue is empty and the specified cooldown period (a property of the `ScaledObject`, default of 300 seconds) the last replica will scale back down to zero.
+After the queue is empty and the specified cooldown period (a property of the `ScaledObject`, default of 300 seconds) the last replica will scale back down to 1.
 
 ## Cleanup resources
 
